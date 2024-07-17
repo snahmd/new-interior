@@ -78,7 +78,9 @@
           <div
             class="flex flex-wrap justify-center items-center shrink-0 mx-auto gap-8"
           >
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link.png"
@@ -90,7 +92,9 @@
                 >Lorem Rocks</a
               >
             </div>
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link-1.png"
@@ -102,7 +106,9 @@
                 >Lorem Rocks</a
               >
             </div>
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link-2.png"
@@ -114,7 +120,9 @@
                 >Lorem Rocks</a
               >
             </div>
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link-3.png"
@@ -126,7 +134,9 @@
                 >Lorem Rocks</a
               >
             </div>
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link-4.png"
@@ -138,7 +148,9 @@
                 >Lorem Rocks</a
               >
             </div>
-            <div class="group relative max-w-[360px] overflow-hidden bg-black">
+            <div
+              class="group relative max-w-[360px] overflow-hidden bg-[#02383A]"
+            >
               <img
                 class="cursor-pointer transition duration-500 hover:scale-150 hover:opacity-50"
                 src="./public/img/Link-5.png"
@@ -160,17 +172,16 @@
         <div
           class="relative w-full h-[958px] md:h-[838px] lg:h-[542px] xl:h-[800px]"
         >
-          <img
+          <div
             style="
               background-attachment: fixed;
               background-position: center;
               background-size: cover;
               background-repeat: no-repeat;
+              background-image: url(./public/img/services-bg.jpg);
             "
             class="w-full h-full object-cover bg-no-repeat xl:object-center"
-            src="./public/img/services-bg.jpg"
-            alt="services-bg"
-          />
+          ></div>
           <div
             class="services-cards flex flex-col items-center gap-16 justify-evenly absolute h-[80%] w-[100%] top-[10%] md:w-[96%] md:right-[2%] md:left-[2%] xl:w-[80%] xl:h-[80%] xl:right-[10%] xl:left-[10%] bg-black bg-opacity-30"
           >
@@ -465,7 +476,13 @@
       <section>
         <div
           class="relative bg-fixed w-full h-[496px] mx-auto flex flex-col items-center justify-center"
-          style="background-image: url(./public/img/parallax-bg.png)"
+          style="
+            background-image: url(./public/img/contact-bg.jpg);
+            background-size: cover;
+
+            background-position: center center;
+            background-repeat: no-repeat;
+          "
         >
           <div
             class="flex flex-col items-center gap-2 justify-evenly absolute h-[80%] w-[80%] top-[10%] md:w-[96%] md:right-[2%] md:left-[2%] xl:w-[80%] xl:h-[80%] xl:right-[10%] xl:left-[10%] bg-black bg-opacity-30"
@@ -480,7 +497,10 @@
                 Feel free to drop us a line.
               </p>
             </div>
-            <form class="flex gap-2 flex-col w-[80%] items-center" action="#">
+            <form
+              class="flex gap-2 flex-col w-[80%] md:w-[70%] lg:w-[60%] items-center"
+              action="#"
+            >
               <input
                 class="bg-inherit w-full border border-ni-grau-light rounded-md p-2 placeholder:text-white text-white focus:outline-none focus-visible:outline-none"
                 type="text"
